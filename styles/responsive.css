@@ -1,6 +1,6 @@
 /* medium device resoponsive */
 @media screen and (min-width:577px) and (max-width:992px) {
-    nav, .nav-left ,.nav-ul{
+    nav, .nav-left ,.nav-ul,.banner ,.btn{
        flex-direction: column;
        text-align: center;
        justify-content: center;
@@ -11,12 +11,19 @@
         width: 100%;
     }
     /* nav bar area end */
+    /* banner section */
+    .banner-img-area{
+        width: 100%;
+    }
+    .banner-img-area img{
+        width: 100%;
+    }
 }
 
 
 /* Mobile device responsive */
 @media screen and (max-width:576px) {
-    nav, .nav-left ,.nav-ul{
+    nav, .nav-left ,.nav-ul,.banner,.btn{
         flex-direction: column;
         gap: 10px;
         justify-content: center;
@@ -36,6 +43,25 @@
         font-weight: normal;
     }
     /* nav bar area end */
+    /* banner section */
+    .banner-title{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .banner-dris{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .fa-brands{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .banner-img-area{
+        width: 100%;
+    }
+    .banner-img-area img{
+        width: 100%;
+    }
 }
     
 

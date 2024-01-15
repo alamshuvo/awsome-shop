@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:ital,wght@0,200;0,400;0,700;1,300&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -83,4 +83,50 @@ nav{
     font-weight: 700;
 }
 /* banner area start */
+.banner{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(236, 232, 232, 0.905);
+    padding: 10px;
+}
 
+.banner-text-area{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 3.5rem;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(203,8,236,1) 35%, rgba(0,212,255,1) 100%);
+    background-clip: text;
+    color: transparent;
+}
+.banner-dris{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 3rem;
+}
+.fa-brands{
+    font-size: 4rem;
+}
+.btn{
+    display:flex;
+    gap: 10px;
+    padding: 10px;
+    color: transparent;
+}
+
+.banner-img-area{
+    width: 50%;
+    padding: 20px; 
+}
+.banner-img-area img{
+    width: 100%;
+    border-radius: 10px;
+}
